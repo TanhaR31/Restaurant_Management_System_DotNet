@@ -1,0 +1,19 @@
+<h4 class="mt-4 mb-5" style="text-align: center;"><strong>All Orders</strong></h4>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">CustomerId</th>
+        <th scope="col">Status</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-success" ng-repeat="p in Orders">
+        <th scope="row">{{p.Id}}</th>
+        <td>{{p.CustomerId}}</td>
+        <td>{{p.Status}}</td>
+        <td>{{p.Price}}</td>
+      </tr>
+    </tbody>
+  </table>

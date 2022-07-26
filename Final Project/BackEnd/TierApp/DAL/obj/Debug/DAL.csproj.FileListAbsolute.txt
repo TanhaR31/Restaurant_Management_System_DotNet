@@ -1,0 +1,9 @@
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\DAL\bin\Debug\DAL.dll.config
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\DAL\bin\Debug\DAL.dll
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\DAL\bin\Debug\DAL.pdb
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\DAL\bin\Debug\EntityFramework.dll
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\DAL\bin\Debug\EntityFramework.xml
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\DAL\obj\Debug\DAL.dll
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\DAL\obj\Debug\DAL.pdb

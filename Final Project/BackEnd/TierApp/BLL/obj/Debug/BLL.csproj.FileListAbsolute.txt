@@ -1,0 +1,16 @@
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\bin\Debug\BLL.dll
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\bin\Debug\BLL.pdb
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\bin\Debug\AutoMapper.dll
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\bin\Debug\BEL.dll
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\bin\Debug\DAL.dll
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\bin\Debug\EntityFramework.dll
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\bin\Debug\BEL.pdb
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\bin\Debug\DAL.pdb
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\bin\Debug\DAL.dll.config
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\bin\Debug\AutoMapper.xml
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\bin\Debug\EntityFramework.xml
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\obj\Debug\BLL.dll
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\obj\Debug\BLL.pdb
+D:\AIUB\2 FINAL\.NET\Lab\TierApp\BLL\obj\Debug\BLL.csproj.CopyComplete

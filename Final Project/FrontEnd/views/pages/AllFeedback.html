@@ -1,0 +1,17 @@
+<h4 class="mt-4 mb-5" style="text-align: center;"><strong>All Feedback</strong></h4>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">CustomerId</th>
+        <th scope="col">Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-success" ng-repeat="p in Feedbacks">
+        <th scope="row">{{p.Id}}</th>
+        <td>{{p.CustomerId}}</td>
+        <td>{{p.Comment}}</td>
+      </tr>
+    </tbody>
+  </table>

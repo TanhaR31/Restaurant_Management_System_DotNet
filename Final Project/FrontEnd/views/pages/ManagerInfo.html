@@ -1,0 +1,23 @@
+<h4 class="mt-4 mb-5" style="text-align: center;"><strong>My Info</strong></h4>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">UserId</th>
+        <th scope="col">ManagerName</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Address</th>
+        <th scope="col">Salary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-success" ng-controller="getinfo">
+        <th scope="row">{{Id}}</th>
+        <td>{{$scope.UserId}}</td>
+        <td>{{scope.ManagerName}}</td>
+        <td>{{p.Phone}}</td>
+        <td>{{p.Address}}</td>
+        <td>{{p.Salary}}</td>
+      </tr>
+    </tbody>
+  </table>

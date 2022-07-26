@@ -1,0 +1,16 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">InvTotalPrice</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-success" ng-repeat="p in InventoryOrdersTotals">
+        <th scope="row">{{p.Id}}</th>
+        <td>{{p.InvTotalPrice}}</td>
+        <td>{{p.Status}}</td>
+      </tr>
+    </tbody>
+  </table>

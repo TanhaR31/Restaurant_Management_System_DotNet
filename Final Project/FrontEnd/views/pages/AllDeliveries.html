@@ -1,0 +1,21 @@
+<h4 class="mt-4 mb-5" style="text-align: center;"><strong>All Deliveries</strong></h4>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">OrderId</th>
+        <th scope="col">CustomerId</th>
+        <th scope="col">DeliverymanId</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-success" ng-repeat="p in Deliveries">
+        <th scope="row">{{p.Id}}</th>
+        <td>{{p.OrderId}}</td>
+        <td>{{p.CustomerId}}</td>
+        <td>{{p.DeliverymanId}}</td>
+        <td>{{p.Status}}</td>
+      </tr>
+    </tbody>
+  </table>

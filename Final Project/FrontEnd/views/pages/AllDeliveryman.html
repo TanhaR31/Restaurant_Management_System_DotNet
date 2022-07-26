@@ -1,0 +1,25 @@
+<h4 class="mt-4 mb-5" style="text-align: center;"><strong>All Deliveryman</strong></h4>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">UserId</th>
+        <th scope="col">DeliverymanName</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Address</th>
+        <th scope="col">Status</th>
+        <th scope="col">Salary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-success" ng-repeat="p in DeliverymansDetails">
+        <th scope="row">{{p.Id}}</th>
+        <td>{{p.UserId}}</td>
+        <td>{{p.DeliverymanName}}</td>
+        <td>{{p.Phone}}</td>
+        <td>{{p.Address}}</td>
+        <td>{{p.Status}}</td>
+        <td>{{p.Salary}}</td>
+      </tr>
+    </tbody>
+  </table>

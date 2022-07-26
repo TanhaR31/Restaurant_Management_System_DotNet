@@ -1,0 +1,20 @@
+<h4 class="mt-4 mb-5" style="text-align: center;"><strong>Products Cart</strong></h4>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">ProductId</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-info" ng-repeat="p in InventoryOrdersDetails">
+        <th scope="row">{{p.Id}}</th>
+        <td>{{p.InvProdId}}</td>
+        <td>{{p.Quantity}}</td>
+        <td>{{p.Total}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <a href="#!invproductsorder" class="link-info">Confirm Order</a>

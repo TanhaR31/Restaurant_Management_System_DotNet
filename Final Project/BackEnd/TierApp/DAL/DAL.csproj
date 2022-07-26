@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96B0FB4A-639D-412A-938D-8DD12D30CF98}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cart.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AuthRepo.cs" />
+    <Compile Include="CustomersDetail.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="Delivery.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryDeliverymanRepo.cs" />
+    <Compile Include="DeliverymanRepo.cs" />
+    <Compile Include="DeliverymansDetail.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FeedbackRepo.cs" />
+    <Compile Include="IAuth.cs" />
+    <Compile Include="InventoryOrdersDetail.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryOrdersTotal.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryProduct.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryRepo.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="ManagerRepo.cs" />
+    <Compile Include="ManagersDetail.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrdersDetail.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RMSF.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RMSF.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RMSF.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RMSF.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RMSF.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Salary.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalaryRepo.cs" />
+    <Compile Include="Token.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TokenRepo.cs" />
+    <Compile Include="User.cs">
+      <DependentUpon>RMSF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserRepo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="RMSF.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>RMSF.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="RMSF.edmx.diagram">
+      <DependentUpon>RMSF.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RMSF.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>RMSF.Context.cs</LastGenOutput>
+      <DependentUpon>RMSF.edmx</DependentUpon>
+    </Content>
+    <Content Include="RMSF.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>RMSF.edmx</DependentUpon>
+      <LastGenOutput>RMSF.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,21 @@
+<h4 class="mt-4 mb-5" style="text-align: center;"><strong>All Paid Salary</strong></h4>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">DeliverymanId</th>
+        <th scope="col">Bonus</th>
+        <th scope="col">SalPaid</th>
+        <th scope="col">SalDate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-success" ng-repeat="p in Salaries">
+        <th scope="row">{{p.Id}}</th>
+        <td>{{p.DeliverymanId}}</td>
+        <td>{{p.Bonus}}</td>
+        <td>{{p.SalPaid}}</td>
+        <td>{{p.SalDate}}</td>
+      </tr>
+    </tbody>
+  </table>
